@@ -38,6 +38,16 @@ Example:
 8)Save this decrypted data and *never share your decrypted private key with any third parties*. 
 Keep in mind that the person who has access to your decrypted private key has full control over your assets.
 
-# Using decrypted private key in Mist wallet TODO
+# Using decrypted private key in Mist wallet
+
+1)Open explorer and enter adress %APPDATA%\Mist\binaries\Geth\unpacked
+
+2)Create there file privatekey.txt and paste your private key there
+
+3)Now press Win+R and enter there %APPDATA%\Mist\binaries\Geth\unpacked\geth.exe account import privatekey.txt. It will ask yu password for your imported wallet and will add it to Mist
+
+4)Open  file privatekey.txt, overwrite it with random text longer then private key, press Save and then delete that file.
+
+After that, your new wallet should be in Mist.
 
 
